@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing:border-box;
+   
+}
+body{
+   font-family: "Roboto" 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    height: 100vh;
+   background:url("https://i.postimg.cc/MKBRhMRF/ee.jpg");
+  background-size:cover;
+  
+}
+h1{
+    color: #fff; 
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+    padding-top:40px;
+    font-size: 40px; 
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+/*form */
+
+  .my-form{
+    
+    padding: 32px 20px;
+  }
+
+  .form-1{
+      position: relative;
+      margin-bottom:28px;
+  }
+  .gt-input{
+      width: 420px;
+      height: 48px;
+      padding: 0 20px;
+      font-size: 20px;
+      border: 0;
+  }
+  .gt-text{
+      padding: 10px 20px;
+      height: 100px;
+      width: 100%;
+  }
+  .gt-input:focus{
+      outline: none;
+  }
+
+  label{
+      position: absolute;
+      font-size: 18px;
+      color: #aaa;
+      transition: all .4s;
+      top:24px;
+      transform:translateY(-50%);
+      margin-left:24px;
+      cursor: text;
+      z-index: 1;
+  }
+
+  .btn{
+      width: 100%;
+      height: 60px;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      border: 0;
+      color: white;
+      background-color:rgb(24, 31, 41);
+      transition: 0.5s;
+      cursor: pointer;
+     font-family:  'Courier New', Courier, monospace;
+  }
+  .btn:hover{
+      background:rgb(36, 86, 119);
+  }
+ 
+  .move-up{
+      margin-top:-32px;
+      margin-left:0px;
+      font-size: 14px;
+      background:rgb(24, 31, 41);
+      border-radius: 8px 0;
+      color:#fff;
+      padding: 4px 8px;
+      min-width: 100px;
+  }
