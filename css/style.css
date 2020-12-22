@@ -246,7 +246,7 @@ body{
     width: 600px;
     padding: 20px;
     box-sizing: border-box;
-    background: #fff;
+    background: rgba(248, 247, 247, 0.747);
     border-radius: 4px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     display: flex;
